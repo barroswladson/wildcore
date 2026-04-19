@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WildCore Cardgame
 
-## Getting Started
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)
 
-First, run the development server:
+**WildCore** é um projeto de cardgame colecionável (TCG/CCG) digital que busca o equilíbrio perfeito entre a fluidez rítmica de *Pokémon TCG* e a profundidade estratégica de *Magic: The Gathering*.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O jogo coloca os jogadores em um cenário onde a essência da natureza e o poder bruto (Core) se chocam. Construa seu deck, gerencie seus recursos e domine o WildCore.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Inspirações e Diferenciais
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O WildCore nasce da fusão de dois pilares do gênero:
 
-## Learn More
+- **Do Pokémon TCG:** Herdamos a clareza visual, a importância das evoluções/progressão de personagens e o foco em tipos elementares.
+- **Do Magic: The Gathering:** Trazemos a complexidade da pilha de efeitos, o gerenciamento de recursos (mana/energia) e a interação estratégica entre os turnos.
 
-To learn more about Next.js, take a look at the following resources:
+**O Diferencial WildCore:**
+Uma mecânica única de "Núcleo Estático" onde o jogador deve decidir entre sacrificar poder imediato para fortalecer sua reserva de longo prazo ou arriscar tudo em um ataque rápido.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tecnologias Utilizadas
 
-## Deploy on Vercel
+Este projeto está sendo desenvolvido com foco em performance e uma UI responsiva e moderna:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **React** - Estrutura de interface e componentes de estado.
+* **Tailwind CSS** - Estilização dinâmica e design de cartas.
+* **Lucide React** - Ícones para a interface de usuário.
+* **JavaScript (ES6+)** - Lógica central das mecânicas do jogo.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Funcionalidades em Desenvolvimento
+
+- [ ] **Deck Builder:** Interface para montar e salvar seus próprios baralhos.
+- [ ] **Battle Engine:** Sistema de turnos com lógica de ataque e defesa.
+- [ ] **Card Gallery:** Visualização detalhada das artes e atributos das cartas.
+- [ ] **Efeito de Status:** Queimadura, Paralisia e Corrosão de Núcleo.
+
+---
+
+## Como rodar o projeto localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/wildcore-cardgame.git](https://github.com/seu-usuario/wildcore-cardgame.git)
