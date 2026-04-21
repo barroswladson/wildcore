@@ -45,4 +45,4 @@ Este projeto está sendo desenvolvido com foco em performance e uma UI responsiv
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/wildcore-cardgame.git](https://github.com/seu-usuario/wildcore-cardgame.git)
+   git clone https://github.com/barroswladson/wildcore.git
