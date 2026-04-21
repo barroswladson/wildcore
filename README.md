@@ -1,5 +1,7 @@
 # WildCore Cardgame
 
+## Backend em breve!
+
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)
 
