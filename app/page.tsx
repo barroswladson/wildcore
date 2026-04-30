@@ -1,10 +1,20 @@
+"use client";
 import Card from "@/components/card";
+import CardModal from "@/components/card-modal";
 import Image from "next/image";
-
+import { useState } from "react";
+import Menu from "@/components/menu";
+import { useSearchParams } from "next/navigation";
 export default function Home() {
+  const [status,setStatus] = useState("");
+  const search = useSearchParams();
+  const open = search.has("criar-cartas");
+
 
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-[radial-gradient(#e4ff6a,#98af32)] font-sans">
+      <Menu/>
+      {open && <CardModal setStatus={setStatus}/>}
       <div className="flex flex-col w-[70vw] h-[90vh] gap-4">
 
         <div className="bg-[rgb(255,255,255,0.6)] h-1/4 flex rounded-[12px] p-3">
