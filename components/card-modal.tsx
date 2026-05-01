@@ -1,6 +1,19 @@
+import { useRouter } from "next/navigation";
+
 export default function CardModal (props){
+    const router = useRouter();
     return(
-        <div className="w-screen h-screen bg-black/65 absolute flex items-center content-center justify-center ">
+        <div className="w-screen h-screen bg-black/65 absolute flex items-center content-center justify-center " onClick={
+            (event)=>{
+                console.log(event.target);
+                console.log(event.currentTarget);
+
+                if(event.target == event.currentTarget){
+                    router.push("/");
+                }
+            }
+        }>
+
             <div className="h-auto w-[50vh] bg-white text-black">
             <form onSubmit={async (e)=>{
                 e.preventDefault();

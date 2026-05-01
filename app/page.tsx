@@ -16,7 +16,7 @@ export default function Home() {
       <Menu/>
       {open && <CardModal setStatus={setStatus}/>}
       <div className="flex flex-col w-[70vw] h-[90vh] gap-4">
-
+        
         <div className="bg-[rgb(255,255,255,0.6)] h-1/4 flex rounded-[12px] p-3">
         </div>
 
